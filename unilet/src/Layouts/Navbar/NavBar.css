@@ -1,0 +1,44 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 60px;
+}
+.Navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  justify-content: space-around;
+}
+.Navbar ul li {
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  font-weight: 500;
+}
+.Navbar button {
+  background-color: #0fb3af;
+  height: 40px;
+  width: 121px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+
+  font-size: 15px;
+  font-weight: 700;
+}
+.Navbar ul li:hover {
+  color: #0fb3af;
+}
+.Logo {
+  cursor: pointer;
+}
+button:hover,
+button:focus {
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+}
